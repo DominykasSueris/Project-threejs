@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navigation {
+    width: 10rem;
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    margin-right: 3rem;
+    margin-top: 0.5rem;
+}
+
+.info {
+    display: flex;
+    width: 10rem;
+    position: fixed;
+    margin-right: 3rem;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
+
+#linkedIn,
+#gitHub {
+    padding: 16px;
+}
+
+#buttonColor,
+#buttonFont {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    border-style: solid;
+    font-weight: 800;
+    font-size: 0.75rem;
+    color: rgb(91, 91, 146);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0.5rem;
+}
